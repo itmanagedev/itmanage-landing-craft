@@ -34,6 +34,18 @@ const services = [
     description:
       "Consultoria e implementação de tecnologias emergentes para posicionar sua empresa na vanguarda do mercado.",
   },
+  {
+    icon: Server,
+    title: "Datacenter",
+    description:
+      "Infraestrutura de datacenter robusta e segura, com alta disponibilidade, redundância e monitoramento 24/7 para garantir a continuidade do seu negócio.",
+  },
+  {
+    icon: Cloud,
+    title: "Arquitetura de Cloud",
+    description:
+      "Planejamento, migração e gestão de ambientes em nuvem com foco em escalabilidade, segurança e otimização de custos.",
+  },
 ];
 
 const ServiceCard = ({
