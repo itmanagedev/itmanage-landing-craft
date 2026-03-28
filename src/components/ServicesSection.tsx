@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Smartphone, Brain, Cog, Headset, Rocket } from "lucide-react";
+import { Smartphone, Brain, Cog, Headset, Rocket, Server, Cloud } from "lucide-react";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 
@@ -33,6 +33,18 @@ const services = [
     title: "Inovação Tecnológica",
     description:
       "Consultoria e implementação de tecnologias emergentes para posicionar sua empresa na vanguarda do mercado.",
+  },
+  {
+    icon: Server,
+    title: "Datacenter",
+    description:
+      "Infraestrutura de datacenter robusta e segura, com alta disponibilidade, redundância e monitoramento 24/7 para garantir a continuidade do seu negócio.",
+  },
+  {
+    icon: Cloud,
+    title: "Arquitetura de Cloud",
+    description:
+      "Planejamento, migração e gestão de ambientes em nuvem com foco em escalabilidade, segurança e otimização de custos.",
   },
 ];
 
@@ -87,7 +99,7 @@ const ServicesSection = () => {
             <ServiceCard key={s.title} service={s} index={i} />
           ))}
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto mt-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto mt-6">
           {services.slice(3).map((s, i) => (
             <ServiceCard key={s.title} service={s} index={i + 3} />
           ))}
