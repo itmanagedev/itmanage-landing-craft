@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Smartphone, Brain, Cog, Headset, Rocket } from "lucide-react";
+import { Smartphone, Brain, Cog, Headset, Rocket, Server, Cloud } from "lucide-react";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 
