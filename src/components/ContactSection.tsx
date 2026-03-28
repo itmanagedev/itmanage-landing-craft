@@ -34,7 +34,7 @@ const ContactSection = () => {
     setForm({ nome: "", email: "", telefone: "", servico: "", mensagem: "" });
   };
 
-  const whatsappLink = "https://wa.me/5500000000000?text=Olá! Gostaria de saber mais sobre os serviços da ITManage.";
+  const whatsappLink = "https://wa.me/558521806494?text=Olá! Gostaria de saber mais sobre os serviços da ITManage.";
 
   return (
     <section id="contato" className="py-24 md:py-32 relative">
