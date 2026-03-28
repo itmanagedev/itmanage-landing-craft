@@ -21,6 +21,24 @@ const testimonials = [
     videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
     thumbnail: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=300&fit=crop",
   },
+  {
+    name: "Fernanda Lima",
+    role: "Gerente de TI, Grupo Vértice",
+    videoUrl: "https://www.w3schools.com/html/movie.mp4",
+    thumbnail: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=300&fit=crop",
+  },
+  {
+    name: "Lucas Oliveira",
+    role: "Fundador, StartupFlow",
+    videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
+    thumbnail: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+  },
+  {
+    name: "Mariana Santos",
+    role: "COO, RetailPro",
+    videoUrl: "https://www.w3schools.com/html/movie.mp4",
+    thumbnail: "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&h=300&fit=crop",
+  },
 ];
 
 const VideoCard = ({
