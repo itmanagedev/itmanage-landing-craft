@@ -99,7 +99,7 @@ const ServicesSection = () => {
             <ServiceCard key={s.title} service={s} index={i} />
           ))}
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto mt-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto mt-6">
           {services.slice(3).map((s, i) => (
             <ServiceCard key={s.title} service={s} index={i + 3} />
           ))}
