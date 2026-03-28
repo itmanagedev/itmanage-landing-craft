@@ -1,7 +1,7 @@
 import { MessageCircle } from "lucide-react";
 
 const whatsappLink =
-  "https://wa.me/5500000000000?text=Olá! Gostaria de saber mais sobre os serviços da ITManage.";
+  "https://wa.me/558521806494?text=Olá! Gostaria de saber mais sobre os serviços da ITManage.";
 
 const WhatsAppFloat = () => {
   return (
