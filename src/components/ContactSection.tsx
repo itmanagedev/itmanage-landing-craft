@@ -143,14 +143,18 @@ const ContactSection = () => {
               <Phone className="text-primary mt-1" size={20} />
               <div>
                 <p className="text-sm font-semibold text-foreground">Telefone</p>
-                <p className="text-sm text-muted-foreground">+55 (00) 00000-0000</p>
+                <p className="text-sm text-muted-foreground">+55 (85) 2180-6494</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <MapPin className="text-primary mt-1" size={20} />
               <div>
-                <p className="text-sm font-semibold text-foreground">Localização</p>
-                <p className="text-sm text-muted-foreground">Brasil</p>
+                <p className="text-sm font-semibold text-foreground">Endereço</p>
+                <p className="text-sm text-muted-foreground">
+                  Avenida Oliveira Paiva, 1206<br />
+                  Cidade dos Funcionários<br />
+                  Fortaleza - CE, CEP 60822-130
+                </p>
               </div>
             </div>
           </motion.div>
