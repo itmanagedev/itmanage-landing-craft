@@ -139,13 +139,19 @@ const ContactSection = () => {
                 <p className="text-sm text-muted-foreground">contato@itmanage.com.br</p>
               </div>
             </div>
-            <div className="flex items-start gap-4">
-              <Phone className="text-primary mt-1" size={20} />
+            <a
+              href={whatsappLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-start gap-4 group hover:opacity-80 transition-opacity"
+              aria-label="Abrir conversa no WhatsApp"
+            >
+              <Phone className="text-primary mt-1 group-hover:scale-110 transition-transform" size={20} />
               <div>
-                <p className="text-sm font-semibold text-foreground">Telefone</p>
-                <p className="text-sm text-muted-foreground">+55 (85) 2180-6494</p>
+                <p className="text-sm font-semibold text-foreground">Telefone / WhatsApp</p>
+                <p className="text-sm text-muted-foreground group-hover:text-primary transition-colors">+55 (85) 2180-6494</p>
               </div>
-            </div>
+            </a>
             <div className="flex items-start gap-4">
               <MapPin className="text-primary mt-1" size={20} />
               <div>
